@@ -1,0 +1,49 @@
+<!--
+Name: Jayson Lucas
+Date: 04/16/2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Switcher</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="moods.css">
+</head>
+
+<body>
+
+    <h1 id="moodTitle">Choose Your Mood</h1>
+
+    <p id="message">Click a button to change your mood!</p>
+
+    <!-- Buttons -->
+    <div id="buttonContainer">
+        <button id="happyBtn">Happy</button>
+        <button id="calmBtn">Calm</button>
+        <button id="excitedBtn">Excited</button>
+        <button id="chillBtn">Chill</button>
+        <button id="mysteriousBtn">Mysterious</button>
+    </div>
+
+    <!-- Questions Section -->
+    <section>
+        <h2>Questions</h2>
+
+        <p><strong>Why is textContent safer than innerHTML?</strong><br>
+        textContent is safer because it does not interpret HTML, preventing script injection attacks.</p>
+
+        <p><strong>How are HTML elements connected to JavaScript variables using DOM selection?</strong><br>
+        HTML elements are selected using methods like document.querySelector() and stored in variables.</p>
+
+        <p><strong>What would happen to the text box with id="text" if I added this line: text.textContent = "Hello!"?</strong><br>
+        The text inside that element would change to "Hello!".</p>
+    </section>
+
+    <!-- Link JS -->
+    <script src="mood.js"></script>
+
+</body>
+</html>
